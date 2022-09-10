@@ -1,0 +1,203 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* lien page menu principal sur le logo Force 33 */
+
+.lienInitialPage {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* debut container entre le header et le footer*/
+
+.mainContainer {
+    width: 100%;
+    height: max-content;
+    overflow-y: scroll;
+}
+
+/* button retour à la page antecedent */
+
+.buttonReturn {
+    width: 100%;
+    height: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.lienReturnBack {
+    margin-left: 5%;
+    padding: 2%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+/* Cet div c'est le debut du conteneur de toute les
+forms des partenaires
+ */
+
+.containerListPartenaires {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* box form partenaires */
+
+.boxListPartenaires {
+    width: 80%;
+    height: max-content;
+    margin: 0;
+}
+
+/* form partenaires contenent id photo 
+profile etc...
+*/
+
+.formPartenaires {
+    width: 100%;
+    height: max-content;
+    margin-bottom: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(242, 147, 5);
+}
+
+/* partie en haut du form partenaires */
+
+.topPartForm {
+    width: 100%;
+    height: 22%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photoProfilePartenaires {
+    width: 60px;
+    height: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: lightgray;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+
+.idPartenaires {
+    margin: 0;
+    padding: 3%;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+/* partie central avec description e 
+status partenaires */
+
+.middlePartForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleDescription {
+    margin: 8% 0 5% 0;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    color: black;
+}
+
+.paragraphForm {
+    margin: 0 5% 10% 5%;
+    padding: 5%;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    color: black;
+}
+
+.buttonActive {
+    width: 8rem;
+    height: 3rem;
+    background-color: rgb(64, 173, 64);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+/* partie basse avec le lien pour la page suivante avec 
+la liste de structure du partenaires
+*/
+
+.bottomPartForm {
+    width: 100%;
+    height: auto;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lienStructurePartenaires {
+    margin: 0 5% 0 0;
+    padding: 0;
+    padding: 2%;
+    background-color: black;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+}
+
+
+.iconLienStructurePartenaires {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* mediaquery pour ecran large format ordinateur */
+
+@media screen and (min-width:1023px) {
+    .containerListPartenaires {
+        width: 100%;
+        height: max-content;
+    }
+
+    .boxListPartenaires {
+        width: 100%;
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .formPartenaires {
+        width: 60%;
+        height: max-content;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 18%;
+    }
+}

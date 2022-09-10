@@ -1,0 +1,262 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+/* button retour à la page antecedent */
+
+.buttonReturn {
+    width: 100%;
+    height: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.lienReturnBack {
+    margin-left: 5%;
+    padding: 2%;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+}
+
+
+.containerStructurePartenaires {
+    width: 100%;
+    height: 55%;
+}
+
+.boxPartenaireStructureModules {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formPartenaireStructureModule {
+    width: 90%;
+    height: 30%;
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(242, 147, 5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.idPartenairesform {
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.photoProfilePartenaires {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+
+.buttonActive {
+    width: 3rem;
+    height: 1.5rem;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(64, 173, 64);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: black;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+
+.listStatusModulePartenaires {
+    width: 90%;
+    height: 12%;
+    background-color: rgb(242, 147, 5);
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleListStatusModule {
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+.statusModules {
+    width: 85%;
+    height: 45%;
+    background-color: rgb(242, 147, 5);
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.module1,
+.module2,
+.module3,
+.module4,
+.module5,
+.module6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titleModule {
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 3%;
+}
+
+
+.boxTitleStructure {
+    width: 100%;
+    height: 8%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleListStructure {
+    width: 80%;
+    height: 50%;
+    padding: 2%;
+    background-color: rgb(242, 147, 5);
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerListStructure {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+
+}
+
+.boxStructure {
+    width: 80%;
+    height: 100%;
+}
+
+.formStructure {
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 147, 5);
+    margin-bottom: 20%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.topPartStructure {
+    width: 100%;
+    height: 50%;
+    margin: 5% 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photoProfileStructure {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 5% 0;
+    padding: 0;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.idStructure {
+    font-size: xx-small;
+    margin: 2% 0 2% 0;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttonformStructureTopPart {
+    margin-top: 5%;
+}
+
+.midllePartStructureTitle {
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleStatusModuleStructure {
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bottomPartStructure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.bottomPart {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
